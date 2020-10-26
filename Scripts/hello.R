@@ -23,4 +23,11 @@ columnmean <- function(y, removeNA = TRUE){
   }
   means
 }
+
+make.power <- function(n){
+  pow <- function(x){
+    x^n
+  }
+  pow
+}
   
